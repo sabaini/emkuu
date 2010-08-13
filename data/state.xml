@@ -1,0 +1,17 @@
+<state 
+   fro="emkuu://sender@somewhere"
+   to="emkuu://rcpt@somewhere"
+   msgid="23"
+   corrid="12"
+   date="2008-12-01T23:59"
+   status="200"
+   etag="gigngogn"
+   expires="2008-12-02T00:00"
+   location="here"
+   postuntil="2008-12-01T23:59"
+   posttoken="now or never"
+   locktimeout="3600"
+>
+Some body
+&lt;Text&gt;
+</state>

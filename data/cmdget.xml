@@ -1,0 +1,11 @@
+<!-- example xml stanza for cmd-get -->
+<get
+     fro="emkuu://sender@somewhere"
+     to="emkuu://rcpt@somewhere"
+     msgid="23"
+     corrid="12"
+     date="2008-12-01T23:59"
+     accept="text/html">
+this body is abandoned, because cmdget has no body  
+</get>
+   

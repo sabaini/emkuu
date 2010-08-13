@@ -1,0 +1,12 @@
+{tables, [{dbmsg, [{attributes, [msgid, kind, fro, to, corrid, date, additional, app, num, rcpt]},
+                 {disc_copies, [emacs@gram]},
+		 {index, [app, num]}]
+}]}.
+
+{dbmsg, {"test", 0}, get, "emkuu://emkuu/from", "emkuu://emkuu/to", 123, "2009-01-10T10:31:20Z", [], "test", 0, []}.
+{dbmsg, {"test", 1}, put, "emkuu://emkuu/from", "emkuu://emkuu/to", 123, "2009-01-10T10:31:20Z", [], "test", 1, []}.
+{dbmsg, {"test", 2}, create, "emkuu://emkuu/from", "emkuu://emkuu/to", 123, "2009-01-10T10:31:20Z", [], "test", 2, []}.
+{dbmsg, {"test", 3}, post, "emkuu://emkuu/from", "emkuu://emkuu/to", 123, "2009-01-10T10:31:20Z", [], "test", 3, []}.
+{dbmsg, {"test", 4}, post, "emkuu://emkuu/from", "emkuu://emkuu/to", 123, "2009-01-10T10:31:20Z", [], "test", 4, []}.
+{dbmsg, {"test", 5}, post, "emkuu://emkuu/from", "emkuu://emkuu/to", 123, "2009-01-10T10:31:20Z", [], "test", 5, []}.
+

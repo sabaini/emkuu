@@ -1,0 +1,12 @@
+<!-- example xml stanza for cmd-put -->
+<put fro="emkuu://sender@somewhere"
+     to="emkuu://rcpt@somewhere"
+     msgid="23"
+     corrid="12"
+     date="2008-12-01T23:59"
+     >
+A Message Body w./
+Newlines &amp; Entities
+
+</put>
+   

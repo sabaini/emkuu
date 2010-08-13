@@ -1,0 +1,24 @@
+#!/bin/bash
+
+name=$1
+confdir="$EHOME/etc/"
+conffile="$confdir/${name}.cfg"
+
+if [[ -e $conffile ]] ; then
+
+    # /usr/bin/erl -sname ${name} -setcookie SAIVHNEPMPBGIXQAOQQF -detached -noshell -s emkuu main ${name}.cfg
+    erl \
+	-config $HOME/.erlang.config \
+	-sname ${name} \
+	-setcookie SAIVHNEPMPBGIXQAOQQF \
+	-env ERL_MAX_PORTS 100000 \
+	+A 32 +K true \
+	-s emkuu main ${name}.cfg \
+	-- "$@"
+
+else
+    echo "Can't find config at $conffile\n"
+fi
+
+
+
